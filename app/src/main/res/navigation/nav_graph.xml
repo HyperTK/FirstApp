@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.tk.firstapp.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/contents1"
+        android:name="com.tk.firstapp.fragment.ContentsFragment1"
+        android:label="コンテンツ1"
+        tools:layout="@layout/fragment_contents1" />
+    <fragment
+        android:id="@+id/contents2"
+        android:name="com.tk.firstapp.fragment.ContentsFragment2"
+        android:label="コンテンツ2"
+        tools:layout="@layout/fragment_contents2" />
+    <fragment
+        android:id="@+id/contents3"
+        android:name="com.tk.firstapp.fragment.ContentsFragment3"
+        android:label="fragment_contents3"
+        tools:layout="@layout/fragment_contents3" />
+    <fragment
+        android:id="@+id/contents4"
+        android:name="com.tk.firstapp.fragment.ContentsFragment4"
+        android:label="fragment_contents4"
+        tools:layout="@layout/fragment_contents4" />
+
+</navigation>
